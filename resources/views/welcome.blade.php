@@ -8,6 +8,6 @@
     <title>Welcome</title>
 </head>
 <body>
-    <h1>Welcome to my new project</h1>
+    <h1>Welcome to my new project ==> <a href="{{ route('todos.index') }}">Todos</a></h1>
 </body>
 </html>

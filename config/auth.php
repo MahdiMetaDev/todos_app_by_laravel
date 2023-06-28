@@ -35,6 +35,7 @@ return [
     |
     */
 
+    // Guards define how users are authenticated for each request
     'guards' => [
         'web' => [
             'driver' => 'session',
@@ -59,6 +60,7 @@ return [
     |
     */
 
+    // Providers define how users are retrieved from your persistent storage
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
